@@ -1,2 +1,90 @@
-# anotherlife-support
-AnotherLife-Support repro
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AnotherLife Support</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro", Inter, Helvetica, Arial, sans-serif;
+        background: linear-gradient(180deg, #0D0F1A, #11131F);
+        color: white;
+        line-height: 1.6;
+        padding: 40px 20px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    h1 { font-size: 36px; margin-bottom: 10px; font-weight: 700; }
+    h2 { margin-top: 40px; font-size: 26px; }
+
+    p { opacity: 0.85; }
+
+    .section {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 16px;
+        backdrop-filter: blur(8px);
+    }
+
+    a {
+        color: #5cc8ff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    h3 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>AnotherLife Support</h1>
+    <p>Your journey to better habits starts here. If you need help, you’re in the right place.</p>
+
+    <div class="section">
+        <h2>📘 Frequently Asked Questions</h2>
+
+        <h3>How do I create a new habit?</h3>
+        <p>Go to the Habits tab and tap the <strong>+</strong> button. Choose a template or create a custom habit that fits your lifestyle.</p>
+
+        <h3>How do challenges work?</h3>
+        <p>Challenges allow you to compete or collaborate with friends. Join public challenges or create private ones for your group.</p>
+
+        <h3>Why did my streak reset?</h3>
+        <p>Streaks reset if a habit isn't completed before the day ends. Check your daily progress in the habit details screen.</p>
+
+        <h3>Does AnotherLife sync across devices?</h3>
+        <p>Yes. Your progress syncs securely using Firebase and updates across all your devices automatically.</p>
+    </div>
+
+    <div class="section">
+        <h2>📩 Contact Support</h2>
+        <p>If you have questions, feedback, or need assistance, reach out to us:</p>
+        <p><a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </div>
+
+    <div class="section">
+        <h2>🔒 Privacy Policy</h2>
+        <p>You can read our full privacy policy at the link below:</p>
+        <p><a href="https://your-github-username.github.io/anotherlife-privacy">Privacy Policy</a></p>
+    </div>
+
+</div>
+
+</body>
+</html>
